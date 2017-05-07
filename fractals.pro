@@ -13,8 +13,12 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    juliaset.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    juliaset.h
 
 FORMS    += mainwindow.ui
+
+CONFIG += c++14
